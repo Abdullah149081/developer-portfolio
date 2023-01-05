@@ -32,14 +32,15 @@ a {
 
 /* header and navigation style  */
 .header {
-  background-color: #fff8f3;
-  background: url("../images/header_bg.png") no-repeat, url("../images/developer.png") no-repeat;
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-repeat: no-repeat;
   background-position: bottom right, left;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 230px;
+  padding: 50px 230px;
 }
 nav ul {
   display: flex;
@@ -183,4 +184,36 @@ section {
 .resume-btn {
   text-align: center;
   margin-top: 50px;
+}
+
+/* .contact start  */
+#contact {
+  background: #fff8f3;
+}
+.contact-container {
+  display: flex;
+  gap: 115px;
+
+  padding: 130px 200px;
+}
+.contact-header {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.contact-descripton {
+  color: #474747;
+  margin-bottom: 30px;
+}
+.contact-container a {
+  margin-right: 24px;
+}
+.contact-container input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
 }
