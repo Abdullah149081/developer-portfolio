@@ -92,7 +92,6 @@ section {
 }
 /* about section  */
 .about-me {
- 
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 155px;
@@ -127,7 +126,6 @@ section {
 
 /* .what-i-do start  */
 
-
 .skills-container {
   display: flex;
   gap: 24px;
@@ -149,4 +147,40 @@ section {
 .skills-container .skill-description {
   color: #757575;
   margin-top: 20px;
+}
+
+/* Resume start  */
+.resume-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 110px;
+}
+.resume-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+.resume-item .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume-item .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-item .description-title {
+  color: #757575;
+  margin-bottom: 30px;
+}
+.hr-title {
+  margin: 30px 0;
+}
+.resume-btn {
+  text-align: center;
+  margin-top: 50px;
 }
