@@ -17,10 +17,18 @@ html {
   color: #ffffff;
 }
 .second-btn {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 24px;
+  color: #fd6e0a;
 }
 
 /* header and navigation style  */
-
+.header {
+  background-color: #fff8f3;
+  background: url("../images/header_bg.png") no-repeat, url("../images/developer.png") no-repeat;
+  background-position: bottom right, left;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -41,4 +49,28 @@ nav li {
 }
 .nav-title .text-primary {
   color: #fd6e0a;
+}
+
+/* .banner start  */
+.banner {
+  display: flex;
+  margin: 0 230px;
+  align-items: center;
+}
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.banner-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
 }
